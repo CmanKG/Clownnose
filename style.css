@@ -1,0 +1,21 @@
+h1{
+    font-size :30px !important; 
+}
+body{
+    background-image :url("https://i.pinimg.com/736x/c8/4a/2b/c84a2b6a92d326e629af1196907aa9b3.jpg") ;
+}
+canvas{
+   
+   border-radius:3px;
+   animation-name:example;
+   animation-duration:4s;
+   animation-iteration-count:infinite;
+}
+@keyframes example{
+    from{
+        box-shadow:1px 1px 30px red;
+    }
+    to{
+        box-shadow:1px 1px 30px white;
+    }
+}
